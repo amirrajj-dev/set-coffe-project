@@ -1,0 +1,21 @@
+span::before {
+    content: '';
+    transform-origin: left;
+  }
+  
+  span:hover::before,
+  span.active::before {
+    transform: scaleX(1);
+  }
+  
+  span::before {
+    content: '';
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  span.active::before {
+    transform: scaleX(1);
+  }
+  

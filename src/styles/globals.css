@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic Custom Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #242424 #f1f1f1; /* Foreground and background colors */
+  scroll-behavior: smooth;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #242424; /* Foreground color of the thumb */
+  border-radius: 20px; /* Rounded corners for the thumb */
+  border: 3px solid #f1f1f1; /* Border around the thumb */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(22, 22, 22) !important;
+}
+
+.text-ltr {
+  direction: ltr;
+  unicode-bidi: isolate; /* Ensures the span's direction doesn't affect surrounding text */
+  display: inline-block;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Shabnam-light";
+    src: url("../../public/fonts/shabnam/Shabnam-Light.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Shabnam-light-digit";
+    src: url("../../public/fonts/shabnam/Farsi-Digits/Shabnam-Light-FD.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Shabnam-bold";
+    src: url("../../public/fonts/shabnam/Shabnam-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Shabnam-medium";
+    src: url("../../public/fonts/shabnam/Shabnam-Medium.ttf") format("truetype");
+  }
+ 
+}

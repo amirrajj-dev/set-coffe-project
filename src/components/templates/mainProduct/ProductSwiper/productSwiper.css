@@ -1,0 +1,37 @@
+.products-swiper-container {
+    position: relative;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    width: 12px !important;
+}
+
+  .swiper-button-next{
+    transform: translateX(-10rem);
+    -webkit-transform: translateX(-10rem);
+    -moz-transform: translateX(-10rem);
+    -ms-transform: translateX(-10rem);
+    -o-transform: translateX(-10rem);
+}
+
+.swiper-button-prev{
+    transform: translateX(10rem);
+}
+  
+  .products-swiper-container:hover .swiper-button-next,
+  .products-swiper-container:hover .swiper-button-prev {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+    opacity: 1;
+}
+  
