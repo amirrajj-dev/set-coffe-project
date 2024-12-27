@@ -75,7 +75,7 @@ SET Coffee is a comprehensive e-commerce platform designed for coffee enthusiast
 
   # FrontEnd :
 
-  /about-us
+/about-us
 
 /blog
 
@@ -94,3 +94,79 @@ SET Coffee is a comprehensive e-commerce platform designed for coffee enthusiast
 /rules
 
 /wishlist
+
+# Api Routes : 
+
+/api/auth
+
+/api/auth/me
+
+/api/auth/refresh
+
+/api/auth/signin
+
+/api/auth/signup
+
+/api/auth/signout
+
+/api/auth/sms
+
+/api/blogs
+
+/api/comments
+
+/api/contactus
+
+/api/departments
+
+/api/discounts
+
+/api/products
+
+/api/products/wishlist
+
+/api/tickets
+
+/api/user
+
+/api/user/ban
+
+/api/user/change-role
+
+/api/user/delete
+
+/api/user/update
+
+# Technologies Used 
+
+# FrontEnd :
+
+React
+
+Next.js
+
+TailwindCSS
+
+Swiper
+
+AOS (Animate On Scroll)
+
+React Icons
+
+Emotion for styled components
+
+# BackEnd :
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+JWT for authentication
+
+SweetAlert2 for alerts
+
+React Toastify for notifications
