@@ -55,3 +55,42 @@ SET Coffee is a comprehensive e-commerce platform designed for coffee enthusiast
    npm run dev
 
    ```
+
+# Project Structure : 
+
+- public/
+- src/
+  - components/
+    - layouts/
+    - modules/
+    - templates/
+  - pages/
+  - styles/
+  - utils/
+- .env
+- package.json
+- README.md
+
+  # Key Routes :
+
+  # FrontEnd :
+
+  /about-us
+
+/blog
+
+/cart
+
+/contact-us
+
+/login-register
+
+/p-admin
+
+/p-user
+
+/products/[id]
+
+/rules
+
+/wishlist
