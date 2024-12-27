@@ -41,7 +41,7 @@ SET Coffee is a comprehensive e-commerce platform designed for coffee enthusiast
    ```
 2. **Install dependencies:**
 
-  ```bash
+   ```bash
    npm install
    ```
 
