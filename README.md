@@ -170,3 +170,6 @@ JWT for authentication
 SweetAlert2 for alerts
 
 React Toastify for notifications
+
+
+# End 👽💚
