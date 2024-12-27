@@ -34,7 +34,24 @@ SET Coffee is a comprehensive e-commerce platform designed for coffee enthusiast
 
 ### Setup
 1. **Clone the repository**:
+   
    ```bash
    git clone https://github.com/your-username/set-coffee.git
    cd set-coffee
+   ```
+2. **Install dependencies:**
+
+  ```bash
+   npm install
+   ```
+
+3. **SetUp MongoDb :**
+
+- Ensure MongoDB is installed and running on your local machine.
+
+4. **Run the Project :**
+
+   ```bash
+   npm run dev
+
    ```
