@@ -36,7 +36,7 @@ SET Coffee is a comprehensive e-commerce platform designed for coffee enthusiast
 1. **Clone the repository**:
    
    ```bash
-   git clone https://github.com/your-username/set-coffee.git
+   git clone https://github.com/amirrajj-dev/set-coffee.git
    cd set-coffee
    ```
 2. **Install dependencies:**
